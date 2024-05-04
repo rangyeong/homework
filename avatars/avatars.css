@@ -1,0 +1,52 @@
+.wrap{
+  width: 336px;
+}
+h2{
+  clear: both;
+}
+li:first-child{
+  margin-bottom: 30px;
+border-bottom: 3px solid #888;
+}
+.float-wrap{
+  float: left;
+}
+.float-wrap .photo-wrap{
+  position: relative;
+  float: left;
+  margin-left: 20px;
+}
+.photo{
+  width: 64px;
+  height: 64px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.state{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 100px;
+  background-color: #DBDBDB;
+  border: 1px solid #fff;
+}
+.state.online{
+  background-color: #4CFE88;
+}
+
+/* flex */
+.flex-wrap .flex-content{
+  clear: both;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.flex-wrap .photo-wrap{
+  position: relative;
+  margin-left: 20px;
+}
