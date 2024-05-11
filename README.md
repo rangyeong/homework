@@ -3,3 +3,5 @@
 
 ## HTML/CSS 과제
 [과제1 - README ](https://github.com/rangyeong/homework/raw/main/avatars/avatars.md)
+
+[과제2 - README](https://github.com/rangyeong/homework/raw/main/naver/naver.md)
