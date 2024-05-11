@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>네이버 로그인 폼</title>
+  <link rel="stylesheet" href="./naver.css" />
+</head>
+
+<body>
+  <section>
+    <h1 class="ally-hidden" aria-label="login-form">로그인 폼</h1>
+    <picture tabindex="0">
+      <source srcset="./icons/logo-naver.svg" />
+      <img src="./icons/logo-naver.svg" alt="네이버 로고" />
+    </picture>
+    <form action="/" class="login-form">
+      <div class="login-input-group" role="group">
+        <!-- 아이디 입력 -->
+        <div class="user-id" aria-label="아이디 입력 폼">
+          <label for="user-id" class="ally-hidden">아이디 입력 폼</label>
+          <input class="login-input" id="user-id" type="email" placeholder="아이디(이메일)" />
+        </div>
+        <!-- 비밀번호 입력 -->
+        <div class="user-pw" aria-label="비밀번호 입력 폼">
+          <label for="user-pw" class="ally-hidden">비밀번호 입력 폼</label>
+          <input class="login-input" id="user-pw" type="password" placeholder="비밀번호" />
+        </div>
+        <button type="submit" class="login-button">로그인</button>
+      </div>
+    </form>
+    <ul>
+      <li class="form-checkbox">
+        <input type="checkbox" id="login-maintain" name="login-maintain" />
+        <label for="login-maintain"> 로그인 상태유지</label>
+      </li>
+      <li class="IP">
+        <a href="./ip_security.html" id="link" target="_blank">IP보안</a>
+          <input type="radio" id="on-radio" name="toggle" aria-pressed="true" tabindex="-1" value="1" checked>
+          <label for="on-radio">ON</label>
+          <input type="radio" id="off-radio" tabindex="0" value="2" name="toggle" aria-pressed="false">
+          <label for="off-radio" tabindex="0">OFF</label>
+      </li>
+    </ul>
+  </section>
+</body>
+
+</html>
